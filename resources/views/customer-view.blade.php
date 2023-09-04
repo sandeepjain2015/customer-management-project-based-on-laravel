@@ -18,7 +18,7 @@
           <a class="nav-link" href="{{url('/customer')}}">Add customer</a>
       </li>
       <li class="nav-item">
-          <a class="nav-link disabled" href="{{url('/customer/view')}}">View customers</a>
+          <a class="nav-link" href="{{url('/customer/view')}}">View customers</a>
       </li>
   </ul>
   <a name="" id="" class="btn btn-primary" href="{{route('customer-create')}}" role="button">Add customer</a>
